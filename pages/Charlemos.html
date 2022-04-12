@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <title>Charlemos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu"> 
+            <ul>
+                <li class="logomenu"> <a href="../index.html"><img src="../img/logohorizontal.png" width="200"> </a> </li>
+                 <li> <a href="Conocenos.html"> Conocenos </a></li>
+                 <li> <a href="Quehacemos.html"> Que hacemos </a></li>
+                 <li> <a href="Ubicacion.html"> Ubicacion </a></li>
+            </ul>
+        </nav>
+        <h1>Formulario de contacto</h1>
+    </header>
+    <main class="mainCharlemos">
+        <form class="charlemosFormulario" action="/formulario" method="post" > 
+                <fieldset> 
+                    <legend> Contactanos aca </legend>
+                    <div> 
+                        <label for="nombre"> Completa tu nombre</label>
+                        <input id="nombre" name="nombre" placeholder="Nombre"/>
+                    </div>
+                    <div> 
+                        <label for="apellido"> Completa tu apellido</label>
+                        <input id="apellido" name="apellido" placeholder="Apellido"/>
+                    </div>
+                    <div> 
+                        <label for="email"> Completa tu email</label>
+                        <input id="email" name="email" placeholder="Email"/>
+                    </div>
+                    <div>
+                        <textarea cols=50 rows=10 id="comentario" placeholder=" Ingrese comentario" name="comentario"></textarea>
+                    </div>
+                    <div> 
+                        <button type="button">Enviar </button>
+                    </div>
+                </fieldset>
+        </form>
+    </main>
+    <footer class="flexContainer">
+        <div> <p> Seguinos en nuestras redes</p> <a href="https://instagram.com/miss.odontoclasto" target="_blank"> <img src="../img/ig.png" alt="logo instagram" width="30px"></a> <a href="https://www.facebook.com/miss.odontoclasto" target="_blank"> <img src="../img/logo face.png" alt="logo facebook" width="29px"> </a> </div>
+        <div class="derechos"> <p> Todos los derechos reservados </p> </div>
+    </footer>
+</body>
+</html>
