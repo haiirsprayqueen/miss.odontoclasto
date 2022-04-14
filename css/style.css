@@ -31,43 +31,7 @@ html {
 }
 /*Fin Contenedor logo*/
 
-/*menu*/
-.menu {
-    background-color:#F7F6F0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    text-align: center;
-}
 
-.menu ul li{ 
-    display: inline-block;
-    list-style: none;
-    padding: 1rem;
-    margin: 1rem;
-    background-color: #945684;
-    font-family:'raleway';
-}
-
-.menu ul li a {
-    text-decoration: none;
-    margin: 1rem;
-    color:#F7F6F0;
-    text-transform: uppercase;
-}
-
-.menu .logomenu{
-    margin: 1rem;
-    padding: 0;
-    background-color: #F7F6F0;
-}
-
-.menu ul li a:hover,
-.menu ul li a:focus {
-    outline: 0;
-    color: #63A1B5;
-}
-/*Fin Menu*/
 
 /*Main de la pagina de inicio*/
 .mainInicio {
